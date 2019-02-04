@@ -7,10 +7,10 @@
 	>
 <channel>
 	<title>Comments for УТБ &quot;Емералд Банк&quot; АД</title>
-	<atom:link href="https://emeraldbank.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://emeraldbank.github.io/</link>
+	<atom:link href="http://emeraldbank.github.io/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://emeraldbank.github.io/</link>
 	<description>Гарантиран успех за нашите патньори!</description>
-	<lastBuildDate>Mon, 04 Feb 2019 20:23:44 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 04 Feb 2019 22:14:31 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.0.3</generator>
