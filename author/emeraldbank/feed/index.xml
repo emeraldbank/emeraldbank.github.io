@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>УТБ &quot;Емералд Банк&quot; АД</title>
-	<atom:link href="https://emeraldbank.github.io/feed/" rel="self" type="application/rss+xml" />
+	<title>emeraldbank &#8211; УТБ &quot;Емералд Банк&quot; АД</title>
+	<atom:link href="https://emeraldbank.github.io/author/emeraldbank/feed/" rel="self" type="application/rss+xml" />
 	<link>https://emeraldbank.github.io/</link>
 	<description>Гарантиран успех за нашите патньори!</description>
 	<lastBuildDate>Tue, 05 Feb 2019 08:57:21 +0000</lastBuildDate>
@@ -20,7 +20,7 @@
 
 <image>
 	<url>https://emeraldbank.github.io/wp-content/uploads/2019/02/cropped-Emeraldicon-32x32.png</url>
-	<title>УТБ &quot;Емералд Банк&quot; АД</title>
+	<title>emeraldbank &#8211; УТБ &quot;Емералд Банк&quot; АД</title>
 	<link>https://emeraldbank.github.io/</link>
 	<width>32</width>
 	<height>32</height>
