@@ -1,17 +1,184 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE html PUBLIC>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-  font-family: 'Roboto', sans-serif;
-}
-</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Контакти</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="styles\style.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="scripts/bootstrap/bootstrap.js"></script>
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
 </head>
+
 <body>
-<p>Контакти и заявки ще бъдат пуснати след пререгистрация на  банката в ЦУТФ</p>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <a class="navbar-brand" href="index.html">Emerald Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Начало</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">За нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="contacts.html">Контакти</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#">Вход</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="header-wrapper">
+        <div id="header" class="container">
+            <div id="logo">
+                <h1 style="color: white"><a href="#"></a></h1>
+            </div>
+            <div id="menu">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+        <div id="banner" class="container">
+            <div class="title">
+                <h2 style="color: white">УТБ "Емералд Банк" АД</h2>
+                <span class="byline">Гарантиран успех за нашите партньори!</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="wrapper">
+        <div id="center-title" class="container">
+            <div class="title">
+                <h2>Свържете се с нас</h2>
+                <span class="byline">на място или онлайн</span>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form action="https://formspree.io/xoqaalgr" method="POST" class="was-validated">
+                            <div class="form-group">
+                                <label style="float: left;" for="User">Име: </label>
+                                <input type="text" class="form-control" id="User" name="User" placeholder="Иван"
+                                    required>
+                                <div class="valid-feedback">Валидно</div>
+                                <div class="invalid-feedback">Моля попълнете полето</div>
+                            </div>
+                            <div class="form-group">
+                                <label style="float: left;" for="Family_Name">Фамилия: </label>
+                                <input type="text" class="form-control" id="Family_Name" name="Family_Name"
+                                    placeholder="Петров" required>
+                                <div class="valid-feedback">Валидно</div>
+                                <div class="invalid-feedback">Моля попълнете полето</div>
+                            </div>
+                            <div class="form-group">
+                                <label style="float: left;" for="E-mail">E-mail за връзка:</label>
+                                <input type="email" class="form-control" id="E-mail" name="E-mail"
+                                    placeholder="example@abv.bg" required>
+                                <div class="valid-feedback">Валидно</div>
+                                <div class="invalid-feedback">Моля попълнете валиден е-mail адрес</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Type_contact" style="float: left;">Контакт за:</label>
+                                <select name="Type_contact" id="Type_contact" class="custom-select" required>
+                                    <option selected disabled hidden>Моля изберете</option>
+                                    <option value="product_wanted">Заявка на услуга</option>
+                                    <option value="question">Въпрос</option>
+                                    <option value="critisism">Оплакване</option>
+                                    <option value="other">Друго</option>
+                                </select>
+                                <div class="invalid-feedback">Моля изберете опция</div>
+
+                            </div>
+                            <div class="form-group">
+                                <label style="float: left;" for="Message">Съобщение: </label>
+                                <textarea name="Message" id="Message" rows="10" class="form-control" required
+                                    placeholder="Ако искате да заявите услуга моля да впишете нейното наименование!"></textarea>
+                                <div class="valid-feedback">Валидно</div>
+                                <div class="invalid-feedback">Моля попълнете полето</div>
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="error_prevention"
+                                        name="error_prevention" required>
+                                    <label for="error_prevention" class="custom-control-label">Наясно съм, че нося
+                                        отговорност, ако попълнената от мен информация е неточна.</label>
+                                    <div class="valid-feedback">Валидно</div>
+                                    <div class="invalid-feedback">Моля съгласете се</div>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="GDPR" name="GDPR" required>
+                                    <label for="GDPR" class="custom-control-label">Наясно съм, че Емералд Банк АД
+                                        обработва личните ми данни с
+                                        цел обслужване на клиенти.</label>
+                                    <div class="valid-feedback">Валидно</div>
+                                    <div class="invalid-feedback">Моля съгласете се</div>
+                                </div>
+
+                            </div>
+                            
+                            <div class="form-group" style="margin-top:5px ;">
+                                <button type="submit" class="btn btn-outline-success">Изпрати</button>
+                                <button type="reset" class="btn btn-outline-danger">Изчисти</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.0796253156404!2d23.311109115008996!3d42.6808556227754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa851b331935bd%3A0xe703960cdb44d717!2z0LHRg9C7LiDigJ7QktC40YLQvtGI0LDigJwgOTEsIDE0MDgg0JjQstCw0L0g0JLQsNC30L7Qsiwg0KHQvtGE0LjRjw!5e0!3m2!1sbg!2sbg!4v1571564505857!5m2!1sbg!2sbg"
+                            width="600" height="700" frameborder="0" style="border:0;" allowfullscreen=""
+                            class="map-responsive"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="welcome">
+        <div class="container">
+            <div class="title">
+                <h2 class="text-white">УТБ "Емералд Банк" АД </h2>
+                <span class="byline">е учебно предприятие и като такова не извършва стопанска дейност!</span>
+            </div>
+            <p class="text-white">Настоящият сайт е изграден само и единствено с учебна цел. Предлаганите услуги са с
+                цел пресъсдаване на
+                реални такива и по никакъв начин нямат статут на еквивалентни, предлатани от реалните банки!</p>
+            <p class="text-white">УТБ "Емералд Банк" е регистрирана като акционерно дружство към Центъра за учебно -
+                тренировъчни фирми
+                (ЦУТФ). Дейността се развива от ученици от Xа клас на Националната търговско-банкова гимназия - град
+                София (НТБГ).</p><br> <br>
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-3" style="padding-bottom: 1em">
+                    <a href="https://buct.org/" class="btn btn-light text-success btn-lg" target="_blank" role="button"
+                        style="font-size: 16px">Сайт на ЦУТФ</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.ntbg.bg/" class="btn btn-light text-success btn-lg" target="_blank"
+                        role="button" style="font-size: 16px">Сайт на НТБГ</a>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="copyright" class="container-fluid" style="background-color: #181818" style="size: 100%">
+        <p>&copy; Emerald Bank. All rights reserved. </p>
+    </div>
 </body>
+
+</html>

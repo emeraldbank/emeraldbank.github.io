@@ -266,3 +266,6 @@
 .left-text {
     text-align: left;
 }
+label{
+    float: left;
+}
