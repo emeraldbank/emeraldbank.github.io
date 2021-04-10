@@ -269,3 +269,6 @@
 label{
     float: left;
 }
+td, th {
+    vertical-align: middle;
+}
